@@ -6,6 +6,9 @@ BMI = weight/height**2
 weight = input()
 height = input()
 
-
 #code here
-
+if (float(height) != 0):
+    BMI = float(weight)/float(height)**2
+    print(round(BMI,3))
+else:
+    print('Invalid height')
